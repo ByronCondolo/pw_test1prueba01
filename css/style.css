@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+section{
+   display: flex;
+   align-items: center;
+   gap: 10%; 
+}
+.dos_casillas{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    row-gap: 1px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 19px;
+    border-radius: 10px;
+}
+.asterisco{
+    color: red;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.tipe_card{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 300px;
+}
+#id_name_card{
+    display: flex;
+    width: 300px;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.title{
+    font-size: 30px;
+    padding: 10%;
+}
+    

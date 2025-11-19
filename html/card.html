@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <div class="container">
+        <section>
+            <div class="card_image">
+                <img src="../resources/images.jpg" alt="No se pudo cargar la imagen">
+            </div>
+            <div class="formulario">
+                <form action="#">
+                    <div class="title">Realizar Pago</div>
+                    <div class="error">
+                    <label for="id_name_card">Titular Tarjeta</label>
+                    <span class="asterisco" id="id_name_error">*</span>
+                    </div>
+                    <input type="text" placeholder="Titular" id="id_name_card">
+                    <div class="dos_casillas">
+                        <label for="id_date">Fecha Caducidad</label>
+                        <label for="id_cvv">CVV</label>
+                        <input type="date" id="id_date">
+                        <input type="password" id="id_cvv" placeholder="xxx" maxlength="3">
+                    </div>
+                    <div class="tipe_card">
+                        <label for="id_type">Tipo de pago</label>
+                        <input type="text" id="id_type" placeholder="Transferencia">
+                    </div>
+                    <div class="enviar">
+                        <button onclick="validar()">Enviar</button>
+                    </div>
+                    <div class="error_msg" id="id_error_msg">
+                        Error al validar el campo
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    
+    <footer></footer>
+</body>
+</html>
